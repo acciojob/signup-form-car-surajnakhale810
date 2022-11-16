@@ -10,7 +10,39 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form action="/action_page.php" method="post">
+	<label for="name">Name<sup>*</sup>
+		<input type="text" id="#name">
+	  </label><br><br>
+	  <label for="email">Email<sup>*</sup>
+	  <input type="email" name="email" id="#email"> </label><br><br>
+	  <label for="gender">Gender<sup>*</sup>
+	   <input type="radio" name="gender" id="#gendera" value="male">Male </label>
+	 <label for="gender">
+		<input type="radio" name="gender" id="#genderb" value="female">Female
+	 </label>
+	 <label for="gender">
+		<input type="radio" name="gender" id="#genderc" value="other">Other
+	 </label><br><br>
+	<label for="car brands">Car Brands<select name="Car brands" id="#cars">
+		<option value="#">Options</option>
+		<option value="#">BMW</option>
+		<option value="#">Audi</option>
+		<option value="#">Mercedez</option>
+	 </select></label><br><br>
+	 <label for="age">Age<sup>*</sup>
+		<input type="number" name="age" id="#age"> </label><br><br>
+		<label for="dob">DOB<sup>*</sup>
+		<input type="date" name="dob" id="#dob"> </label><br><br>
+		<label for="password">Password<sup>*</sup>
+			<input type="password" name="password" id="#password" maxlength="10"  minlength="5">
+		</label><br><br>
+		<label for="potfolio">Enter url
+		<input type="url" name="url" id="portfolio" placeholder="https://course.acciojob.com/web-idle?question=50c34c64-99c4-4e8d-a221-de4cc7954de1" ></label><br><br>
+		 <label for="submit">
+			<button>Submit</button>
+		 </label>
+	</form>
 </body>
 
 </html>
